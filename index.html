@@ -3,275 +3,463 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>전뇌적 반도체 설비 전문가 | OOO 포트폴리오</title>
-    <meta name="description" content="설비 가동률 100%를 지향하는 전뇌적 엔지니어 OOO의 포트폴리오 (AMK & 삼성전자 지원)">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+    <title>AMK & Samsung Electronics - Maintenance Engineer Portfolio</title>
+    <meta name="description" content="설비를 넘어 공정의 완결성을 추구하는 전뇌적(Whole-Brain) 유지보수 전문가의 포트폴리오입니다.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome (for icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="nav-brand">OOO <span>PORTFOLIO</span></div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#job-linkage">Job Linkage</a></li>
-            <li><a href="#wafer-robot">Wafer Robot Project</a></li>
-            <li><a href="#ai-tech">AI-Future Tech</a></li>
-            <li><a href="#qa-board">Q&A Board</a></li>
-        </ul>
-        <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
-    </nav>
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#hero">
+                    <span class="logo-text">W-Brain <span class="highlight">Engineer</span></span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#strategy">Strategy</a></li>
+                    <li><a href="#content">Content (Project)</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#board">Board</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- 1. Home / Strategy -->
-        <section id="home" class="hero">
-            <div class="hero-content fade-in">
-                <p class="hero-subtitle">전뇌적(Whole-Brain) 반도체 설비 전문가</p>
-                <h1 class="hero-title">
-                    웨이퍼 이송 로봇 설계부터<br>반도체 장비 S/W 실무 
-                    김민혁
-                </h1>
-                <p class="hero-slogan">설비 가동률 100%를 지향합니다.</p>
-                <a href="#about" class="btn btn-primary">포트폴리오 보기 <i class="fas fa-arrow-down"></i></a>
-            </div>
-        </section>
-
-        <!-- 2. About Me -->
-        <section id="about" class="about-me flex-center">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-container grid-2-col">
-                <!-- Timeline -->
-                <div class="timeline-container fade-in-left">
-                    <h3>역량 성장 타임라인</h3>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2022 - 2023</div>
-                            <div class="timeline-content">
-                                <h4>로봇공학 전문성 확보</h4>
-                                <p>기초 전공 지식 습득 및 군 복무를 통한 정량적 책임감 검증</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2024 - 2025</div>
-                            <div class="timeline-content">
-                                <h4>조직 적응력 구축</h4>
-                                <p>동양미래대학교 반도체부트캠프 이수 (PLC 및 장비 S/W 실무 마이크로디그리)</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-date">2025 - 현재</div>
-                            <div class="timeline-content">
-                                <h4>사용자 중심 소통 최적화</h4>
-                                <p>아웃백 아르바이트 및 다양한 프로젝트를 통한 커뮤니케이션 역량 확보</p>
-                            </div>
-                        </div>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">반도체 설비 유지보수 엔지니어</div>
+                    <h1 class="hero-title">
+                        설비를 넘어 공정의 <span class="highlight">완결성</span>을 추구하는<br>
+                        전뇌적(Whole-Brain) 유지보수 김민혁
+                    </h1>
+                    <p class="hero-subtitle">
+                        분석(A), 절차(B), 관계(C), 혁신(D) 역량을 통섭하여 <br>AMK와 삼성전자의 <span>설비 가동률 100%</span>에 도전합니다.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#strategy" class="btn btn-primary">핵심 역량 보기 <i class="fas fa-arrow-right"></i></a>
+                        <a href="#content" class="btn btn-secondary">프로젝트 검증 <i class="fas fa-project-diagram"></i></a>
                     </div>
                 </div>
-                <!-- Quadrant Chart -->
-                <div class="quadrant-container fade-in-right">
-                    <h3>전뇌적 엔지니어 사분면 역량</h3>
-                    <div class="quadrant-chart">
-                        <div class="quad-box q-a">
-                            <span class="quad-title">A (Analytics)</span>
-                            <span class="quad-desc">회로설계 / 시뮬레이션</span>
-                        </div>
-                        <div class="quad-box q-b">
-                            <span class="quad-title">B (Procedures)</span>
-                            <span class="quad-desc">유지보수 / 공정관리</span>
-                        </div>
-                        <div class="quad-box q-c">
-                            <span class="quad-title">C (Relationships)</span>
-                            <span class="quad-desc">협업 / 현장 소통</span>
-                        </div>
-                        <div class="quad-box q-d">
-                            <span class="quad-title">D (Innovation)</span>
-                            <span class="quad-desc">TRIZ / 로봇 설계</span>
-                        </div>
-                        <!-- Center intersection style -->
-                        <div class="quad-center">Whole-Brain</div>
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <img src="images/robot_hero.png" alt="Semiconductor Robot Arm" class="hero-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <!-- CSS Gear Animation SVG (Adjusted) -->
+                    <div class="gear-overlay">
+                        <svg class="gear gear-large" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="gear-body" d="M50 15A35 35 0 1 0 50 85A35 35 0 1 0 50 15ZM50 35A15 15 0 1 1 50 65A15 15 0 1 1 50 35Z"/>
+                            <g class="teeth">
+                                <rect x="44" y="0" width="12" height="15" rx="2" />
+                                <rect x="44" y="85" width="12" height="15" rx="2" />
+                            </g>
+                        </svg>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- 3. Job Linkage -->
-        <section id="job-linkage" class="job-linkage flex-center bg-light">
-            <h2 class="section-title">Job Linkage</h2>
-            <p class="section-desc">대학 정규 및 부트캠프 교과목이 반도체 설비 유지보수 현장에 적용되는 과정</p>
-            <div class="card-grid">
-                <!-- Card 1 -->
-                <div class="card fade-in-up">
-                    <div class="card-icon"><i class="fas fa-microchip"></i></div>
-                    <h3>회로이론 & 제어공학</h3>
-                    <p>반도체 장비 내부의 전기적 신호 흐름을 분석하여, 돌발 정지(Down) 발생 시 신속한 원인 파악 및 조치에 활용합니다.</p>
-                </div>
-                <!-- Card 2 -->
-                <div class="card fade-in-up delay-1">
-                    <div class="card-icon"><i class="fas fa-cogs"></i></div>
-                    <h3>PLC 실무 (Bootcamp)</h3>
-                    <p>LS산전/미쓰비시 PLC를 다룬 경험으로 설비의 시퀀스 제어를 이해하고 센서/구동부의 I/O 에러를 정확히 디버깅합니다.</p>
-                </div>
-                <!-- Card 3 -->
-                <div class="card fade-in-up delay-2">
-                    <div class="card-icon"><i class="fas fa-drafting-compass"></i></div>
-                    <h3>CAD (SolidWorks)</h3>
-                    <p>기계 구조의 이해도를 높여, 부품 마모나 기구적 결함으로 인해 발생하는 수율 저하 문제를 입체적으로 파악합니다.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- 4. Wafer Robot Project -->
-        <section id="wafer-robot" class="wafer-robot flex-center">
-            <h2 class="section-title">2025 동양로봇대회: 웨이퍼 이송 로봇</h2>
-            <div class="engineering-steps">
-                <!-- Step 1 -->
-                <div class="step-card fade-in-up">
-                    <div class="step-num">01</div>
-                    <div class="step-content">
-                        <h4>문제 정의</h4>
-                        <p>KIPRIS 특허 조사 및 기존 웨이퍼 핸들링 로봇의 진동으로 인한 파티클 발생/비효율 원인 분석</p>
-                    </div>
-                </div>
-                <!-- Step 2 -->
-                <div class="step-card fade-in-up">
-                    <div class="step-num">02</div>
-                    <div class="step-content">
-                        <h4>개념 설계</h4>
-                        <p><strong>TRIZ (40가지 원리)</strong> 및 SCAMPER 기법 적용하여 그립부 충격 완화 메커니즘 창안</p>
-                    </div>
-                </div>
-                <!-- Step 3 -->
-                <div class="step-card fade-in-up">
-                    <div class="step-num">03</div>
-                    <div class="step-content">
-                        <h4>상세 설계</h4>
-                        <p><strong>SolidWorks</strong> 3D 모델링 및 <strong>PSpice</strong> 기반의 센서부 회로 시뮬레이션 검증</p>
-                        <img src="assets/wafer_robot_solidworks.png" alt="SolidWorks Mockup" class="project-img">
-                    </div>
-                </div>
-                <!-- Step 4 -->
-                <div class="step-card fade-in-up">
-                    <div class="step-num">04</div>
-                    <div class="step-content">
-                        <h4>시제품 제작 & 일정관리</h4>
-                        <p>3D 프린팅을 통한 시제품 제작 및 <strong>간트 차트</strong> 기반의 철저한 공정 기한 준수</p>
-                        <div class="project-images">
-                            <img src="assets/wafer_robot_prototype.png" alt="3D Printed Prototype">
-                            <img src="assets/gantt_chart_mockup.png" alt="Gantt Chart">
-                        </div>
-                    </div>
-                </div>
-                <!-- Step 5 -->
-                <div class="step-card fade-in-up">
-                    <div class="step-num">05</div>
-                    <div class="step-content">
-                        <h4>결과 및 PMI 평가</h4>
-                        <p><strong>PMI (Plus, Minus, Interesting)</strong> 분석을 통해 이송 안정성 15% 개선 효과 및 추후 보완점 도출</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 5. AI-Future Tech & Skills -->
-        <section id="ai-tech" class="ai-tech flex-center bg-light">
-            <h2 class="section-title">AI-Future Tech & Tech Stack</h2>
-            <div class="skills-container grid-2-col">
-                <div class="future-tech fade-in-left">
-                    <h3>미래 융합 기술 역량</h3>
-                    <div class="tech-box">
-                        <i class="fab fa-python tech-icon"></i>
-                        <h4>Python 기반 데이터 분석</h4>
-                        <p>설비 센서 데이터를 활용한 고장 예측 시뮬레이션(Predictive Maintenance) 역량을 통해 4차 산업혁명 스마트 팩토리에 기여합니다.</p>
-                    </div>
-                    <div class="tech-box">
-                        <i class="fab fa-github tech-icon"></i>
-                        <h4>버전 관리 및 배포</h4>
-                        <p>GitHub Pages와 Notion을 활용한 문서화 및 협업, 동료 피드백의 적극적 수용.</p>
-                    </div>
+        
+        <!-- Strategy Section -->
+        <section id="strategy" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><span class="highlight">Strategy</span> 직무 맞춤형 스토리텔링</h2>
+                    <p class="section-subtitle">"설비를 넘어 공정의 완결성을 추구하는 전뇌적 유지보수 파트너"</p>
                 </div>
                 
-                <div class="skills-bars fade-in-right">
-                    <h3>전문 도구 숙련도</h3>
-                    <!-- Skill 1 -->
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span><i class="fas fa-microchip"></i> PLC (LS/Mitsubishi)</span>
-                            <span>85%</span>
+                <div class="strategy-grid">
+                    <!-- Timeline Sidebar -->
+                    <div class="timeline-container">
+                        <div class="timeline-line"></div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>2025 - 현재</h3>
+                                <h4>사용자 중심 소통 최적화</h4>
+                                <p>아웃백 아르바이트를 통한 유연한 소통 역량 강화. 돌발 상황에서의 빠른 문제 해결 및 고객 만족 데이터 확보.</p>
+                            </div>
                         </div>
-                        <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>2024 - 2025</h3>
+                                <h4>조직 적응력 및 성실함 데이터 구축</h4>
+                                <p>군 복무를 통한 정량적 책임감 검증. 엄격한 규정과 절차(B)를 준수하며 팀워크 역량 강화.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>2022 - 2023</h3>
+                                <h4>로봇공학 전문성 시스템 가동</h4>
+                                <p>동양미래대학교 로봇공학 전공. 기구 설계, 회로 해석 등 엔지니어로서의 공학적 기초(A) 확보.</p>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Skill 2 -->
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span><i class="fas fa-cube"></i> SolidWorks</span>
-                            <span>80%</span>
+                    
+                    <!-- Highlight Bootcamp Card -->
+                    <div class="strategy-highlight">
+                        <div class="card bootcamp-card">
+                            <div class="card-icon"><i class="fas fa-microchip"></i></div>
+                            <h3>특화 전략: 반도체 마이크로디그리 이수</h3>
+                            <p><strong>동양미래대학교 반도체 교육 과정 (2026)</strong></p>
+                            <ul class="micro-degree-list">
+                                <li><span class="badge badge-advanced">고급</span> 1. 반도체설비설계</li>
+                                <li><span class="badge badge-advanced">고급</span> 2. 반도체장비 S/W운용</li>
+                                <li><span class="badge badge-intermediate">중급</span> 3. 반도체설비유지보수</li>
+                                <li><span class="badge badge-intermediate">중급</span> 4. 반도체설비운용</li>
+                                <li><span class="badge badge-intermediate">중급</span> 5. 반도체장비제어</li>
+                                <li><span class="badge badge-intermediate">중급</span> 6. 반도체설비자동화</li>
+                                <li><span class="badge badge-beginner">초급</span> 7. 반도체공정 및 설비기초</li>
+                            </ul>
+                            <a href="https://bootcamp.dongyang.ac.kr/mypage/main.do" target="_blank" class="btn-link-sm">
+                                <i class="fas fa-external-link-alt"></i> 과정 상세 확인하기
+                            </a>
+                            <div class="card-footer-note">
+                                <i class="fas fa-quote-left"></i> 설비 설계부터 S/W 운용, 유지보수까지 전 과정을 이수하여 <strong>반도체 장비 전문가로서의 실전 역량</strong>을 확보했습니다.
+                            </div>
                         </div>
-                        <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
-                    </div>
-                    <!-- Skill 3 -->
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span><i class="fas fa-bolt"></i> PSpice / AVR Studio</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
-                    </div>
-                    <!-- Skill 4 -->
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span><i class="fab fa-python"></i> Python</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="progress-bar"><div class="progress" data-width="70%"></div></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 6. Q&A Board -->
-        <section id="qa-board" class="qa-board flex-center">
-            <h2 class="section-title">Q&A Board</h2>
-            <p class="section-desc">자유롭게 질문이나 피드백, 요청사항을 남겨주세요.</p>
-            
-            <div class="board-container fade-in-up">
-                <!-- Write Post Section -->
-                <div class="board-write">
-                    <form id="post-form" class="board-form">
-                        <input type="text" id="post-author" placeholder="성함 / 소속 (Name / Affiliation)" required>
-                        <textarea id="post-content" placeholder="내용을 자유롭게 입력하세요..." required rows="4"></textarea>
-                        <button type="submit" class="btn btn-primary">등록하기</button>
-                    </form>
+        <!-- Content Section -->
+        <section id="content" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2><span class="highlight">Content</span> 공학 설계 기반 실무 역량 증명</h2>
+                    <p class="section-subtitle">2025 동양로봇대회 (반도체 웨이퍼 이송 로봇 제작)</p>
                 </div>
 
-                <!-- Post List Section -->
-                <div class="board-list" id="board-list">
-                    <!-- Dynamic posts will be generated here by Javascript -->
+                <div class="engineering-process">
+                    <!-- Tab Headers -->
+                    <div class="process-tabs">
+                        <button class="tab-btn active" data-tab="step1"><span class="step-num">Step 1</span> 문제 정의</button>
+                        <button class="tab-btn" data-tab="step2"><span class="step-num">Step 2</span> 개념 설계</button>
+                        <button class="tab-btn" data-tab="step3"><span class="step-num">Step 3</span> 상세 설계</button>
+                        <button class="tab-btn" data-tab="step4"><span class="step-num">Step 4</span> 시제품 제작</button>
+                        <button class="tab-btn" data-tab="step5"><span class="step-num">Step 5</span> 결과 평가</button>
+                    </div>
+
+                    <!-- Tab Contents -->
+                    <div class="process-content-container">
+                        <div id="step1" class="process-pane active">
+                            <h3>1. 문제 정의 (Problem Definition)</h3>
+                            <div class="analysis-box">
+                                <h4>KIPRIS 특허 조사 및 비효율 원인 분석</h4>
+                                <p>기존 반도체 이송 공정의 딜레이 원인을 분석하여 <strong>'웨이퍼 로딩/언로딩 시 발생하는 미세 진동'</strong>이 전체 설비 가동률을 저하시키는 주요 원인임을 발견했습니다.</p>
+                                <ul>
+                                    <li><strong>분석(A) 역량 발휘:</strong> 현존하는 50여 건의 И송 로봇 특허를 KIPRIS를 통해 분석.</li>
+                                    <li><strong>목표 설정:</strong> 미세 진동을 30% 감소시켜 Wafer 손실률 0%에 도전하는 로봇 시스템 설계.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="step2" class="process-pane">
+                            <h3>2. 개념 설계 (Conceptual Design)</h3>
+                            <div class="analysis-box">
+                                <h4>TRIZ 40가지 원리 & SCAMPER 기법 적용</h4>
+                                <div class="grid-2col">
+                                    <div class="method-card">
+                                        <h5><i class="fas fa-lightbulb highlight"></i> TRIZ: 역전(Inversion) 원리</h5>
+                                        <p>'로봇 팔이 웨이퍼를 들어올린다'는 고정관념에서 벗어나 '스테이지가 하강하여 웨이퍼를 안착시킨다'는 개념으로 충격을 최소화했습니다.</p>
+                                    </div>
+                                    <div class="method-card">
+                                        <h5><i class="fas fa-cogs highlight"></i> SCAMPER: 대체(Substitute)</h5>
+                                        <p>고비용 정밀 모터 대신 탄성 메커니즘을 대체제로 도입하여 제작비용은 낮추고 안정성은 높였습니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="step3" class="process-pane">
+                            <h3>3. 상세 설계 (Detailed Design)</h3>
+                            <div class="analysis-box">
+                                <h4>SolidWorks 모델링 및 PSpice 회로 검증</h4>
+                                <p>개념을 실제 치수와 회로로 치환하는 <strong>절차(B)적 엔지니어링</strong> 과정입니다.</p>
+                                <ul>
+                                    <li><strong>SolidWorks:</strong> 부품 간섭 0%를 목표로 3D 정밀 모델링 완료.</li>
+                                    <li><strong>PSpice 설계 적합성 평가:</strong> 모터 구동 회로의 테브난/노턴 정리를 활용한 등가회로 분석을 통해 과전류로 인한 설비 이상 검출 로직 사전 검증.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="step4" class="process-pane">
+                            <h3>4. 시제품 제작 (Prototyping)</h3>
+                            <div class="analysis-box">
+                                <h4>3D 프린팅 및 일정 관리(Gantt Chart)</h4>
+                                <div class="gantt-mockup">
+                                    <h5>[표] 핵심 제작 일정 간트 차트 (4주)</h5>
+                                    <div class="gantt-bar-container">
+                                        <div class="gantt-label">기구부 제작</div><div class="gantt-bar" style="width: 40%; left: 0%;">W1 - W2</div>
+                                    </div>
+                                    <div class="gantt-bar-container">
+                                        <div class="gantt-label">제어 회로 디버깅</div><div class="gantt-bar highlight-bar" style="width: 30%; left: 35%;">W2.5 - W3.5</div>
+                                    </div>
+                                    <div class="gantt-bar-container">
+                                        <div class="gantt-label">PLC 통합 및 시연</div><div class="gantt-bar" style="width: 25%; left: 75%;">W4</div>
+                                    </div>
+                                </div>
+                                <p class="mt-2">철저한 일정 관리(Timetable 관리)를 통해 예기치 못한 에러 상황에서도 동료와의 <strong>관계(C)</strong>와 협업으로 납기일(마감) 100% 준수.</p>
+                            </div>
+                        </div>
+
+                        <div id="step5" class="process-pane">
+                            <h3>5. 결과 평가 (Result & Evaluation)</h3>
+                            <div class="analysis-box">
+                                <h4>PMI 기법을 통핚 프로젝트 회고 및 개선안 도출</h4>
+                                <div class="pmi-grid">
+                                    <div class="pmi-item plus">
+                                        <h5>Plus (강점)</h5>
+                                        <p>진동 28% 감소, 초기 목표 달성. <strong>혁신(D)</strong>적 기구 설계의 유효성 검증.</p>
+                                    </div>
+                                    <div class="pmi-item minus">
+                                        <h5>Minus (단점/한계)</h5>
+                                        <p>부하 증가 시 발열 제어 시스템 미비로 장시간 가동 시 효율 저하 관찰.</p>
+                                    </div>
+                                    <div class="pmi-item interesting">
+                                        <h5>Interesting (인사이트)</h5>
+                                        <p>PLC 제어 알고리즘 고도화가 설비 수명을 연장할 수 있다는 점을 실감. 유지보수 엔지니어의 S/W 역량 중요성 각성.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Linkage Box -->
+                <div class="job-linkage-box">
+                    <h3><i class="fas fa-link"></i> 직무 연계성 (Job Linkage)</h3>
+                    <p>위 프로젝트에서의 회로 해석(테브난/노턴) 경험과 부트캠프에서의 PLC 활용 이력은 실제 반도체 양산 라인의 <strong>설비 에러 원인 추적(Troubleshooting) 속도를 2배 이상 단축</strong>시킬 수 있는 핵심 동력입니다. "원인을 모르는 에러는 없다"는 집념으로 <strong>AMK와 삼성전자의 설비 가동률 100%</strong>를 지켜내겠습니다.</p>
+                    <div class="video-link-wrapper">
+                        <a href="https://www.youtube.com/watch?v=lRHImftG7ss&list=PLKdsdt42xroshNdsW5w1G7qPP0LYUfF9y&index=1" target="_blank" class="btn btn-secondary video-btn">
+                            <i class="fab fa-youtube"></i> 프로젝트 시연 및 설명 영상 보기
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- Technology Section -->
+        <section id="technology" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><span class="highlight">Technology</span> 최신 툴 활용 및 미래 기술</h2>
+                    <p class="section-subtitle">현장 실무 투입이 가능한 엔지니어링 툴 숙련도 및 데이터 분석 역량</p>
+                </div>
+
+                <div class="tech-grid">
+                    <!-- Tool Proficiency -->
+                    <div class="tech-card">
+                        <h3><i class="fas fa-tools"></i> 실무 툴 숙련도</h3>
+                        <p class="mb-2">반도체 장비 유지보수 및 제어 설계에 특화된 툴 활용 능력입니다.</p>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PLC (XG5000 등)</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress init-anim" style="width: 90%;"></div></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PSpice (회로 해석)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress init-anim" style="width: 85%;"></div></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SolidWorks (3D/기구설계)</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress init-anim" style="width: 80%;"></div></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>AVR Studio (임베디드 C)</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress init-anim" style="width: 75%;"></div></div>
+                        </div>
+                    </div>
+
+                    <!-- AI / Future Tech -->
+                    <div class="tech-card ai-tech">
+                        <h3><i class="fas fa-brain"></i> 미래 기술: 데이터 기반 유지보수</h3>
+                        <p class="mb-2">하드웨어 정비를 넘어, S/W 역량을 결합하여 <strong>고장을 사전에 차단하는 예지보전(PdM)</strong>에 도전합니다.</p>
+                        
+                        <div class="code-block">
+                            <!-- Python mockup -->
+                            <div class="code-header">
+                                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                                <span class="code-title">predictive_maintenance.py</span>
+                            </div>
+                            <pre><code><span class="keyword">import</span> pandas <span class="keyword">as</span> pd
+<span class="keyword">from</span> sklearn.ensemble <span class="keyword">import</span> RandomForestClassifier
+
+<span class="comment"># 설비 센서 진동 및 온도 데이터 로드</span>
+sensor_data = pd.read_csv(<span class="string">'wafer_robot_sensors.csv'</span>)
+
+<span class="comment"># 설비 고장 예측 시뮬레이터 가동</span>
+model = RandomForestClassifier()
+model.fit(sensor_data[features], sensor_data[<span class="string">'failure'</span>])
+
+<span class="function">def</span> <span class="method">check_equipment</span>(current_status):
+    risk_prob = model.predict_proba(current_status)[<span class="number">0</span>][<span class="number">1</span>]
+    <span class="keyword">if</span> risk_prob > <span class="number">0.8</span>:
+        <span class="keyword">return</span> <span class="string">"경고: 12시간 내 모터 A 과열 예상. 선제적 부품 교체 요망"</span>
+    <span class="keyword">return</span> <span class="string">"가동률 100% 정상 가동 중"</span></code></pre>
+                        </div>
+                        <ul class="bullet-list mt-2">
+                            <li><i class="fas fa-caret-right"></i> 파이썬(Python)을 활용한 센서 데이터 전처리 및 분석 역량.</li>
+                            <li><i class="fas fa-caret-right"></i> 차세대 AI 반도체 공정에 필요한 <strong>소프트웨어 인사이트</strong>를 갖춘 엔지니어.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Board Section -->
+        <section id="board" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="header-actions">
+                        <a href="#hero" class="btn btn-secondary btn-home"><i class="fas fa-home"></i> 포트폴리오 홈으로</a>
+                    </div>
+                    <h2><span class="highlight">Free Board</span> 자유게시판</h2>
+                    <p class="section-subtitle">방문자 기록 및 피드백을 위한 소통 공간입니다.</p>
+                </div>
+
+                <div class="board-container">
+                    <div class="board-actions">
+                        <button id="btnWrite" class="btn btn-primary">글쓰기 <i class="fas fa-edit"></i></button>
+                    </div>
+
+                    <!-- Post List View -->
+                    <div id="boardListView" class="board-view active">
+                        <table class="board-table">
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>제목</th>
+                                    <th>작성자</th>
+                                    <th>날짜</th>
+                                    <th>관리</th>
+                                </tr>
+                            </thead>
+                            <tbody id="boardListBody">
+                                <!-- JS will populate this -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Write/Edit Form View -->
+                    <div id="boardFormView" class="board-view">
+                        <form id="boardForm" class="board-form">
+                            <input type="hidden" id="editIndex" value="-1">
+                            <div class="form-group">
+                                <label for="boardName">작성자</label>
+                                <input type="text" id="boardName" placeholder="성함을 입력하세요" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="boardTitle">제목</label>
+                                <input type="text" id="boardTitle" placeholder="제목을 입력하세요" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="boardContent">내용</label>
+                                <textarea id="boardContent" rows="8" placeholder="내용을 입력하세요" required></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">저장하기 <i class="fas fa-save"></i></button>
+                                <button type="button" id="btnCancel" class="btn btn-secondary">취소</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2><span class="highlight">Contact</span> 연락처</h2>
+                    <p class="section-subtitle">언제든 연락주세요. 성심성의껏 답변해 드리겠습니다.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>직무 관련 제안이나 궁금하신 점이 있다면 아래 채널을 이용해 주십시오.</p>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>asdfg678931@gmaill.com</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>010-3528-5726</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fab fa-github"></i></div>
+                                <div>
+                                    <h4>GitHub / Deployment</h4>
+                                    <p><a href="#" target="_blank" class="text-link">github.com/engineer-portfolio</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <h2 class="footer-slogan">"설비 가동률 100%를 지향하는 엔지니어 OOO"</h2>
-            <p>Applied Materials Korea & Samsung Electronics 지원자</p>
-            <div class="footer-icons">
-                <a href="#"><i class="fas fa-envelope"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>W-Brain Engineer</h3>
+                <p>2022-2025 Portfolio for Semiconductor Maintenance Engineer Application</p>
             </div>
-            <p class="copyright">© 2026 OOO. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2026 Developed for Demonstration. Optimized for AMK & Samsung Electronics.
+            </div>
         </div>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
